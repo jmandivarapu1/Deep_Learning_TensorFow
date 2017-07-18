@@ -1,1 +1,13 @@
 Will Write some basics about the ensemble learning and implement some of the basic to advanced versions of ensemble learning
+
+
+----------------  -------------------   -------------------
+Consider the case of Email-Spam...
+If you want to detect some email as spam or not.You will have a bunch of rule.
+But each rule doesnt have a good effect if you use it independently.So we need to find a way to combine 
+all the individual rules which are effective.
+
+So in Ensemble learner will have lot of learners(SVM,Desicion trees..etc) each will be runnning on the subset of data instead of overall data to
+avoid the overfitting the data and finally combineing all the algorithm into a single one.
+
+You may take the case of regression where you can take simple mean of all the output algorithms and give it as the final output.
